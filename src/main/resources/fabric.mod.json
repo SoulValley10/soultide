@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "soultide",
+	"version": "${version}",
+	"name": "Soultide",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"SoulValley10"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/soultide/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.soulvalley.soultide.Soultide"
+		],
+		"fabric-datagen": [
+			"net.soulvalley.soultide.SoultideDataGenerator"
+		],
+		"client": [
+			"net.soulvalley.soultide.SoultideClient"
+		]
+	},
+	"mixins": [
+		"soultide.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
