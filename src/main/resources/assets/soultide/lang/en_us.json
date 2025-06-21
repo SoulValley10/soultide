@@ -2,5 +2,13 @@
   "item.soultide.solidified_soul": "Solidified Soul",
   "item.soultide.soul_infused_ingot": "Soul Infused Ingot",
 
-  "item.soultide.soul_knife": "Soul Knife"
+  "item.soultide.soul_knife": "Soul Knife",
+
+  "item.soultide.soul_infused_helmet": "Soul Infused Helmet",
+  "item.soultide.soul_infused_chestplate": "Soul Infused Robes",
+  "item.soultide.soul_infused_leggings": "Soul Infused Leggings",
+  "item.soultide.soul_infused_boots": "Soul Infused Boots",
+
+  "itemgroup.soultide.soultide_items": "Soultide"
+
 }

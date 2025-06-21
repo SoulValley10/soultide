@@ -39,13 +39,5 @@ public class ModItems {
 
     public static void registerModItems() {
         Soultide.LOGGER.info("Registering Mod Items for" + Soultide.MOD_ID);
-
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(fabricItemGroupEntries -> {
-            fabricItemGroupEntries.add(SOLIDIFIED_SOUL);
-            fabricItemGroupEntries.add(SOUL_INFUSED_INGOT);
-        });
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(fabricItemGroupEntries -> {
-            fabricItemGroupEntries.add(SOUL_KNIFE);
-        });
     }
 }
