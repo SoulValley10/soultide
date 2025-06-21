@@ -16,7 +16,7 @@ public class ModItems {
 
     public static final Item SOUL_KNIFE = registerItem("soul_knife",
             new SwordItem(ModToolMaterials.SOUL_INFUSED, new Item.Settings()
-                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.SOUL_INFUSED, 1, -1.5f))));
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.SOUL_INFUSED, 1, -1.8f))));
 
 
     private static Item registerItem(String name, Item item) {
