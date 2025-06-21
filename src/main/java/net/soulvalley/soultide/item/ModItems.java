@@ -18,7 +18,7 @@ public class ModItems {
 
     public static final Item SOUL_DOUBLE_AXE = registerItem("soul_double_axe",
             new AxeItem(ModToolMaterials.SOUL_INFUSED, new Item.Settings()
-                    .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.SOUL_INFUSED, 4, -3f))));
+                    .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.SOUL_INFUSED, 6, -3.2f))));
 
 
 
