@@ -32,6 +32,8 @@ public class ModItems {
             new ArmorItem(ModArmorMaterials.SOUL_INFUSED_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
                     .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(45))));
 
+    public static final Item SOUL_EYE = registerItem("soul_eye", new Item(new Item.Settings()));
+
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(Soultide.MOD_ID, name), item);

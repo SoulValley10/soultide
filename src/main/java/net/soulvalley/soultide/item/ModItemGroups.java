@@ -22,6 +22,7 @@ public class ModItemGroups {
                         entries.add(ModItems.SOUL_INFUSED_CHESTPLATE);
                         entries.add(ModItems.SOUL_INFUSED_LEGGINGS);
                         entries.add(ModItems.SOUL_INFUSED_BOOTS);
+                        entries.add(ModItems.SOUL_EYE);
 
                     })
 
