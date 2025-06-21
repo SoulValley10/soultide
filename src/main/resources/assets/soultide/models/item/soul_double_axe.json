@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "soultide:item/soul_knife"
+    "layer0": "soultide:item/soul_double_axe"
   }
 }

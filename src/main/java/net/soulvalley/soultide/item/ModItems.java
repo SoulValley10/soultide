@@ -2,10 +2,7 @@ package net.soulvalley.soultide.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.fabricmc.loader.impl.discovery.ModResolver;
-import net.minecraft.item.ArmorItem;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroups;
-import net.minecraft.item.SwordItem;
+import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -18,6 +15,12 @@ public class ModItems {
     public static final Item SOUL_KNIFE = registerItem("soul_knife",
             new SwordItem(ModToolMaterials.SOUL_INFUSED, new Item.Settings()
                     .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.SOUL_INFUSED, 1, -1.8f))));
+
+    public static final Item SOUL_DOUBLE_AXE = registerItem("soul_double_axe",
+            new AxeItem(ModToolMaterials.SOUL_INFUSED, new Item.Settings()
+                    .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.SOUL_INFUSED, 4, -3f))));
+
+
 
     public static final Item SOUL_INFUSED_HELMET = registerItem("soul_infused_helmet",
             new ArmorItem(ModArmorMaterials.SOUL_INFUSED_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
