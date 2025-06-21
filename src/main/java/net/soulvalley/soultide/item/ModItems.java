@@ -20,6 +20,10 @@ public class ModItems {
             new AxeItem(ModToolMaterials.SOUL_INFUSED, new Item.Settings()
                     .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.SOUL_INFUSED, 6, -3.2f))));
 
+    public static final Item SOUL_SLEDGEHAMMER = registerItem("soul_sledgehammer",
+            new PickaxeItem(ModToolMaterials.SOUL_INFUSED, new Item.Settings()
+                    .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.SOUL_INFUSED, 9, -3.8f))));
+
 
 
     public static final Item SOUL_INFUSED_HELMET = registerItem("soul_infused_helmet",

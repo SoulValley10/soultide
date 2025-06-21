@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "soultide:item/soul_sledgehammer_2d"
+  }
+}
