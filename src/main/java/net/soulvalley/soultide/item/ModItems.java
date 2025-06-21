@@ -2,6 +2,7 @@ package net.soulvalley.soultide.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.fabricmc.loader.impl.discovery.ModResolver;
+import net.minecraft.item.ArmorItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.item.SwordItem;
@@ -17,6 +18,19 @@ public class ModItems {
     public static final Item SOUL_KNIFE = registerItem("soul_knife",
             new SwordItem(ModToolMaterials.SOUL_INFUSED, new Item.Settings()
                     .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.SOUL_INFUSED, 1, -1.8f))));
+
+    public static final Item SOUL_INFUSED_HELMET = registerItem("soul_infused_helmet",
+            new ArmorItem(ModArmorMaterials.SOUL_INFUSED_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(45))));
+    public static final Item SOUL_INFUSED_CHESTPLATE = registerItem("soul_infused_chestplate",
+            new ArmorItem(ModArmorMaterials.SOUL_INFUSED_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(45))));
+    public static final Item SOUL_INFUSED_LEGGINGS = registerItem("soul_infused_leggings",
+            new ArmorItem(ModArmorMaterials.SOUL_INFUSED_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(45))));
+    public static final Item SOUL_INFUSED_BOOTS = registerItem("soul_infused_boots",
+            new ArmorItem(ModArmorMaterials.SOUL_INFUSED_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(45))));
 
 
     private static Item registerItem(String name, Item item) {
