@@ -1,6 +1,28 @@
 {
-  "parent": "minecraft:item/handheld",
+  "parent": "item/handheld",
   "textures": {
     "layer0": "soultide:item/soul_double_axe"
+  },
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [0, 90, -35],
+      "translation": [0, 4, 0],
+      "scale": [2.0, 2.0, 2.0]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [0, 90, -35],
+      "translation": [0, 4, 0],
+      "scale": [2.0, 2.0, 2.0]
+    },
+    "firstperson_righthand": {
+      "rotation": [0, -135, 25],
+      "translation": [0, 5, 0],
+      "scale": [2.0, 2.0, 2.0]
+    },
+    "firstperson_lefthand": {
+      "rotation": [0, -135, 25],
+      "translation": [0, 5, 0],
+      "scale": [2.0, 2.0, 2.0]
+    }
   }
 }
