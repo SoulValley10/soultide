@@ -12,6 +12,9 @@ public class ModTags {
 
     }
     public static class Items {
+        public static final TagKey<Item> HARVESTS_SOULS = createTag("harvests_souls");
+
+        public static final TagKey<Item> SOUL_INFUSED_INGOT = createTag("soul_infused_ingot");
 
         private static TagKey<Item> createTag(String name) {
             return TagKey.of(RegistryKeys.ITEM, Identifier.of(Soultide.MOD_ID, name));
