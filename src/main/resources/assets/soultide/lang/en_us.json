@@ -23,6 +23,12 @@
 
   "item.soultide.soul_glaive": "Soul Glaive",
 
-  "item.soultide.soul_pitchfork": "Soul Pitchfork"
+  "item.soultide.soul_upgrade_smithing_template": "Smithing Template",
 
+  "tooltip.soultide.soul_template.tooltip.1": "§7Soul Upgrade",
+  "tooltip.soultide.soul_template.tooltip.2": "",
+  "tooltip.soultide.soul_template.tooltip.3": "§7Applies to:",
+  "tooltip.soultide.soul_template.tooltip.4": "§9Netherite Equipment",
+  "tooltip.soultide.soul_template.tooltip.5": "§7Ingredients:",
+  "tooltip.soultide.soul_template.tooltip.6": "§9Soul Infused Ingot"
 }

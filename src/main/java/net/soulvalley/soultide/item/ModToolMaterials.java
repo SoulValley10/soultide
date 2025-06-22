@@ -12,7 +12,7 @@ import net.minecraft.registry.tag.TagKey;
 import java.util.function.Supplier;
 
 public enum ModToolMaterials implements ToolMaterial {
-    SOUL_INFUSED(BlockTags.INCORRECT_FOR_NETHERITE_TOOL, 3427, 11.0F, 4.0F, 15, () -> Ingredient.ofItems(ModItems.SOUL_INFUSED_INGOT));
+    SOUL_INFUSED(BlockTags.INCORRECT_FOR_NETHERITE_TOOL, 3427, 13.0F, 4.0F, 15, () -> Ingredient.ofItems(ModItems.SOUL_INFUSED_INGOT));
 
     private final TagKey<Block> inverseTag;
     private final int itemDurability;

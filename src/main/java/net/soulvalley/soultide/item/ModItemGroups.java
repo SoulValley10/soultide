@@ -23,6 +23,11 @@ public class ModItemGroups {
                         entries.add(ModItems.SOUL_INFUSED_LEGGINGS);
                         entries.add(ModItems.SOUL_INFUSED_BOOTS);
                         entries.add(ModItems.SOUL_EYE);
+                        entries.add(ModItems.SOUL_DOUBLE_AXE);
+                        entries.add(ModItems.SOUL_SLEDGEHAMMER);
+                        entries.add(ModItems.SOUL_GLAIVE);
+                        entries.add(ModItems.SOUL_SCYTHE);
+                        entries.add(ModItems.SOUL_UPGRADE_SMITHING_TEMPLATE);
 
                     })
 

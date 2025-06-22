@@ -1,0 +1,28 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "soultide:item/soul_scythe"
+  },
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [0, 270, 45],
+      "translation": [0, 6, 3.0],
+      "scale": [2, 2, 2]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [0, -270, -45],
+      "translation": [0, 6, 3.0],
+      "scale": [2, 2, 2]
+    },
+    "firstperson_righthand": {
+      "rotation": [0, -90, 25],
+      "translation": [1.5, 2.5, -1.5],
+      "scale": [2, 2, 2]
+    },
+    "firstperson_lefthand": {
+      "rotation": [0, 90, -25],
+      "translation": [1.5, 2.5, -1.5],
+      "scale": [2, 2, 2]
+    }
+  }
+}

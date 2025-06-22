@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:netherite_pickaxe"
+  },
+  "addition": {
+    "item": "soultide:soul_infused_ingot"
+  },
+  "template": {
+    "item": "soultide:soul_upgrade_smithing_template"
+  },
+  "result": {
+    "id": "soultide:soul_sledgehammer",
+    "count": 1
+  }
+}

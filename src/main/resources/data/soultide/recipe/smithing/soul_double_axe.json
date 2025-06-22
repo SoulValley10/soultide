@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:netherite_axe"
+  },
+  "addition": {
+    "item": "soultide:soul_infused_ingot"
+  },
+  "template": {
+    "item": "soultide:soul_upgrade_smithing_template"
+  },
+  "result": {
+    "id": "soultide:soul_double_axe",
+    "count": 1
+  }
+}

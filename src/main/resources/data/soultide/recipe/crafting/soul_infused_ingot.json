@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "xyx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "soultide:solidified_soul"
+    },
+    "y": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "result": {
+    "id": "soultide:soul_infused_ingot",
+    "count": 1
+  }
+}

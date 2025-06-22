@@ -2,6 +2,7 @@ package net.soulvalley.soultide;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.soulvalley.soultide.block.ModBlocks;
 import net.soulvalley.soultide.item.ModItemGroups;
 import net.soulvalley.soultide.item.ModItems;
 import org.slf4j.Logger;
@@ -15,5 +16,6 @@ public class Soultide implements ModInitializer {
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
