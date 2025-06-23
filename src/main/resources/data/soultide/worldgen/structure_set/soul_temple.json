@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "soultide:soul_temple",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "spacing": 25,
+    "separation": 10,
+    "salt": 564326475576,
+    "type": "minecraft:random_spread"
+  }
+}
