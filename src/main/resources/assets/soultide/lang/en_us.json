@@ -26,11 +26,14 @@
   "item.soultide.soul_upgrade_smithing_template": "Smithing Template",
 
   "tooltip.soultide.soul_template.tooltip.1": "§7Soul Upgrade",
-  "tooltip.soultide.soul_template.tooltip.2": "",
+  "tooltip.soultide.soul_template.tooltip.2": "§7Obtainted from trail ruins",
   "tooltip.soultide.soul_template.tooltip.3": "§7Applies to:",
   "tooltip.soultide.soul_template.tooltip.4": "§9Netherite Equipment",
   "tooltip.soultide.soul_template.tooltip.5": "§7Ingredients:",
   "tooltip.soultide.soul_template.tooltip.6": "§9Soul Infused Ingot",
 
-  "enchantment.soultide.soul_harvester": "Soul Harvester"
+  "enchantment.soultide.soul_harvester": "Soul Harvester",
+
+  "tooltip.soultide.solidified_soul.tooltip.1": "§7Obtainted from killing with Soul Harvester enchantment",
+  "tooltip.soultide.solidified_soul.tooltip.2": "§7Soul Harvester is from Trail Ruins"
 }

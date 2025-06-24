@@ -26,7 +26,7 @@ public class ModEnchantments {
                 items.getOrThrow(ItemTags.WEAPON_ENCHANTABLE),
                 items.getOrThrow(ItemTags.SWORD_ENCHANTABLE),
                 5,
-                1,
+                5,
                 Enchantment.leveledCost(5,7),
                 Enchantment.leveledCost(25,9),
                 2,

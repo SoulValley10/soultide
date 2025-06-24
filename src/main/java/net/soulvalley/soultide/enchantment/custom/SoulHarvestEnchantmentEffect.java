@@ -16,19 +16,20 @@ public record SoulHarvestEnchantmentEffect() implements EnchantmentEntityEffect 
 
     @Override
     public void apply(ServerWorld world, int level, EnchantmentEffectContext context, Entity target, Vec3d pos) {
-        // `target` is the entity that was hit.
         if (!(target instanceof LivingEntity victim)) return;
 
-        // Only run on the server after the hit is fully processed:
         if (!victim.isRemoved() && victim.isDead()) {
-            // Roll 5% chance
-            if (world.getRandom().nextFloat() <= 1f) {
+            float baseChance = 0.05f; // 5% chance at level 1
+            float chance = baseChance * level; // e.g. 10% at level 2, 15% at level 3, etc.
+
+            if (world.getRandom().nextFloat() <= chance) {
                 ItemStack soulStack = new ItemStack(ModItems.SOLIDIFIED_SOUL);
                 ItemEntity drop = new ItemEntity(world, victim.getX(), victim.getY(), victim.getZ(), soulStack);
                 world.spawnEntity(drop);
             }
         }
     }
+
 
     @Override
     public MapCodec<? extends EnchantmentEntityEffect> getCodec() {

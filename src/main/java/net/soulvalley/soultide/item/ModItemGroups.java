@@ -1,17 +1,25 @@
 package net.soulvalley.soultide.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
+import net.minecraft.enchantment.Enchantment;
+import net.minecraft.enchantment.EnchantmentHelper;
+import net.minecraft.enchantment.EnchantmentLevelEntry;
+import net.minecraft.enchantment.Enchantments;
+import net.minecraft.item.EnchantedBookItem;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.Items;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.soulvalley.soultide.Soultide;
 
+import java.util.Map;
+
 public class ModItemGroups {
     public static final ItemGroup SOULTIDE_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
-            Identifier.of(Soultide.MOD_ID, "soultide_items_"),
+            Identifier.of(Soultide.MOD_ID, "soultide_items"),
             FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.SOUL_INFUSED_INGOT))
                     .displayName(Text.translatable("itemgroup.soultide.soultide_items"))
                     .entries((displayContext, entries) -> {
@@ -28,7 +36,6 @@ public class ModItemGroups {
                         entries.add(ModItems.SOUL_GLAIVE);
                         entries.add(ModItems.SOUL_SCYTHE);
                         entries.add(ModItems.SOUL_UPGRADE_SMITHING_TEMPLATE);
-
                     })
 
                     .build());

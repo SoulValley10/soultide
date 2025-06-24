@@ -1,2 +1,11 @@
-// 1.21.1	2025-06-24T17:26:02.0066042	Soultide/Tags for minecraft:item
+// 1.21.1	2025-06-24T19:17:05.467053	Soultide/Tags for minecraft:item
+882267f9384794db8668b0c13557a0f2ad5c135c data\minecraft\tags\item\pickaxes.json
+53f06884f31bdf19b8a89d424a9785c53d952544 data\minecraft\tags\item\head_armor.json
+00710df811e1d610f3b57dc2a2ba6a82483c0514 data\minecraft\tags\item\shovels.json
+7f63976d3774290e9859c5c519046295a12efcf3 data\minecraft\tags\item\swords.json
+85d023b3a45bff7b1daea11aadea91cf9b558737 data\minecraft\tags\item\chest_armor.json
+c82dc9c338c0a385b3724e58e74316ae962d5502 data\minecraft\tags\item\axes.json
 7f63976d3774290e9859c5c519046295a12efcf3 data\soultide\tags\item\harvests_souls.json
+b3354739846a898cec0b2c3da9942d72b0e56454 data\minecraft\tags\item\foot_armor.json
+0dd66e823834bced7b12ced66b1e9471d4725765 data\minecraft\tags\item\hoes.json
+86bb61dad645daa0527349038ca25928cc0b51ab data\minecraft\tags\item\leg_armor.json

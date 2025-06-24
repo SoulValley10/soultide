@@ -81,18 +81,15 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft_enchanted_book",
+          "name": "minecraft:enchanted_book",
           "functions": [
             {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:stored_enchantments": {
-                  "soultide:soul_harvester": 1
-                }
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "soultide:soul_harvester": 1
               }
             }
-          ],
-          "weight": 2
+          ]
         },
         {
           "type": "minecraft:item",

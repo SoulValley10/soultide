@@ -13,7 +13,15 @@ import net.soulvalley.soultide.Soultide;
 import java.util.List;
 
 public class ModItems {
-    public static final Item SOLIDIFIED_SOUL = registerItem("solidified_soul", new Item(new Item.Settings()));
+    public static final Item SOLIDIFIED_SOUL = registerItem("solidified_soul", new Item(new Item.Settings()){
+        @Override
+        public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
+            tooltip.add(Text.translatable("tooltip.soultide.solidified_soul.tooltip.1"));
+            tooltip.add(Text.translatable("tooltip.soultide.solidified_soul.tooltip.2"));
+            super.appendTooltip(stack, context, tooltip, type);
+        }
+    });
+
     public static final Item SOUL_INFUSED_INGOT = registerItem("soul_infused_ingot", new Item(new Item.Settings()));
 
     public static final Item SOUL_KNIFE = registerItem("soul_knife",
