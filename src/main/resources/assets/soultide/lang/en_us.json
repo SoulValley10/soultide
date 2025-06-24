@@ -30,5 +30,7 @@
   "tooltip.soultide.soul_template.tooltip.3": "§7Applies to:",
   "tooltip.soultide.soul_template.tooltip.4": "§9Netherite Equipment",
   "tooltip.soultide.soul_template.tooltip.5": "§7Ingredients:",
-  "tooltip.soultide.soul_template.tooltip.6": "§9Soul Infused Ingot"
+  "tooltip.soultide.soul_template.tooltip.6": "§9Soul Infused Ingot",
+
+  "enchantment.soultide.soul_harvester": "Soul Harvester"
 }
